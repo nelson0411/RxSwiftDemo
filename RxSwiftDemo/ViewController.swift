@@ -153,6 +153,9 @@ class ViewController: UIViewController {
         self.pushBtn6.frame = CGRect.init(x: (30+100+15)+100+15, y: 440+50+10, width: 100, height: 50)
         view.addSubview(self.pushBtn6)
         
+        self.pushBtn7.frame = CGRect.init(x: 30, y: 500+50+10, width: 100, height: 50)
+        view.addSubview(self.pushBtn7)
+        
         bindTextField()
         bindButton()
     }
@@ -217,6 +220,11 @@ class ViewController: UIViewController {
     
     @objc func clickPushBtn6() {
         let subVC = SevenViewController.init()
+        self.navigationController?.pushViewController(subVC, animated: true)
+    }
+    
+    @objc func clickPushBtn7() {
+        let subVC = ViewDemoController.init()
         self.navigationController?.pushViewController(subVC, animated: true)
     }
     
@@ -288,6 +296,14 @@ class ViewController: UIViewController {
         let button: UIButton = UIButton.init(type: UIButton.ButtonType.custom)
         button.addTarget(self, action: #selector(clickPushBtn6), for: UIControl.Event.touchUpInside)
         button.setTitle("push6", for: .normal)
+        button.setTitleColor(UIColor.black, for: .normal)
+        return button
+    }()
+    
+    lazy var pushBtn7: UIButton = {
+        let button: UIButton = UIButton.init(type: UIButton.ButtonType.custom)
+        button.addTarget(self, action: #selector(clickPushBtn7), for: UIControl.Event.touchUpInside)
+        button.setTitle("push7", for: .normal)
         button.setTitleColor(UIColor.black, for: .normal)
         return button
     }()
