@@ -252,6 +252,15 @@ class ViewController5: MyViewController {
                 print("didChangeSelection")
             })
             .disposed(by: disposeBag)
+        
+        let tgr = UITapGestureRecognizer()
+        view.addGestureRecognizer(tgr)
+        
+        tgr.rx.event
+            .subscribe { [weak self ] _ in
+                self?.view.endEditing(true)
+            }
+            .disposed(by: disposeBag)
     }
     
     //UIButton
