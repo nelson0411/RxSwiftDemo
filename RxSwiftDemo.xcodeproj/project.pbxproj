@@ -28,6 +28,7 @@
 		859FF1DE2716B250007273D7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859FF1DD2716B250007273D7 /* Model.swift */; };
 		859FF1E12716B2D0007273D7 /* ViewDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859FF1E02716B2D0007273D7 /* ViewDemoController.swift */; };
 		859FF1E42716B60E007273D7 /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859FF1E32716B60E007273D7 /* ViewController6.swift */; };
+		859FF21A27181439007273D7 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859FF21927181439007273D7 /* MyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		859FF1DD2716B250007273D7 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		859FF1E02716B2D0007273D7 /* ViewDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDemoController.swift; sourceTree = "<group>"; };
 		859FF1E32716B60E007273D7 /* ViewController6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
+		859FF21927181439007273D7 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		AE58DAB2A0DF98E99DBA78DD /* Pods-RxSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftDemo/Pods-RxSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C3B4CD680E6C23C364E99F77 /* Pods_RxSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -119,6 +121,7 @@
 				859E5EEC26ED1C2700D67FBF /* Contributor.swift */,
 				859E5EDE26ED103100D67FBF /* Button.swift */,
 				859FF1DD2716B250007273D7 /* Model.swift */,
+				859FF21927181439007273D7 /* MyViewController.swift */,
 				859FF1E02716B2D0007273D7 /* ViewDemoController.swift */,
 				859FF1D62716B208007273D7 /* ViewController2.swift */,
 				859FF1D42716B208007273D7 /* ViewController3.swift */,
@@ -254,6 +257,7 @@
 				859E5ED326EC8A2D00D67FBF /* SubViewController.swift in Sources */,
 				85054EA626EB9BE5006BBD2A /* ViewController.swift in Sources */,
 				859E5ED626ECB18000D67FBF /* ThirdViewController.swift in Sources */,
+				859FF21A27181439007273D7 /* MyViewController.swift in Sources */,
 				859FF1E12716B2D0007273D7 /* ViewDemoController.swift in Sources */,
 				859FF1E42716B60E007273D7 /* ViewController6.swift in Sources */,
 				859FF1DB2716B208007273D7 /* ViewController5.swift in Sources */,
