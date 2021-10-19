@@ -14,7 +14,9 @@ class ViewDemoController: UIViewController {
         "vc3",
         "vc4",
         "vc5",
-        "vc6"
+        "vc6",
+        "vc7",
+        "vc8"
     ]
 
     override func viewDidLoad() {
@@ -80,6 +82,10 @@ extension ViewDemoController: UITableViewDelegate {
             vc = ViewController5.init()
         case 4:
             vc = ViewController6.init()
+        case 5:
+            vc = ViewController7.init()
+        case 6:
+            vc = ViewController8.init()
         default:
             vc = UIViewController.init()
         }
